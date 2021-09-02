@@ -1,0 +1,32 @@
+.spacer {
+	aspect-ratio: 1500/300;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.spacer2 {
+	aspect-ratio: 1500/300;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.layer1 {
+	background-image: url(../img/svg-1.svg);
+	mix-blend-mode: screen;
+	margin-top: -14rem;
+}
+
+.layer2 {
+	background-image: url(../img/svg2.svg);
+}
+
+.layer3 {
+	background-image: url(../img/svg3.svg);
+}
+
+.svg-layer {
+}

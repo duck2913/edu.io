@@ -1,0 +1,21 @@
+.app {
+	&__container {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	&__text-box {
+		display: flex;
+		flex-direction: column;
+		gap: 5rem;
+	}
+
+	&__flake {
+		position: absolute;
+		&--1 {
+		}
+
+		&--2 {
+		}
+	}
+}

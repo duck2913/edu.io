@@ -1,0 +1,30 @@
+.heading--1 {
+	font-size: 6rem;
+	font-weight: 500;
+	text-transform: capitalize;
+	line-height: 1.2;
+}
+
+.heading--2 {
+	font-size: 4.8rem;
+	text-transform: capitalize;
+	font-weight: 500;
+	line-height: 1.2;
+	margin-bottom: 7rem;
+}
+
+.text {
+	font-size: 2rem;
+	line-height: 1.8;
+}
+
+.caption {
+	font-size: 2rem;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 0.2;
+
+	&--green {
+		color: $color-green-dark;
+	}
+}

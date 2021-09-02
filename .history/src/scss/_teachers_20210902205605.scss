@@ -1,0 +1,15 @@
+.teachers {
+	&__list {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+
+	&__item {
+	}
+
+	&__name {
+		font-size: 7rem;
+	}
+}
