@@ -1,0 +1,22 @@
+.header {
+	&__container {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.logo {
+		font-size: 9rem;
+		font-weight: 600;
+	}
+
+	.nav {
+		&__list {
+			display: flex;
+		}
+
+		&__link {
+			font-size: 4.7rem;
+		}
+	}
+}

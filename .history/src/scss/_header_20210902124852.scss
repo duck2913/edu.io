@@ -1,0 +1,28 @@
+.header {
+	&__container {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.logo {
+		font-size: 9rem;
+		font-weight: 600;
+	}
+
+	.nav {
+		&__list {
+			display: flex;
+			gap: 5rem;
+		}
+
+		&__link {
+			font-size: 2.7rem;
+			font-weight: 500;
+		}
+		.active {
+			padding-bottom: rem;
+			border-bottom: 3px solid $color-green;
+		}
+	}
+}

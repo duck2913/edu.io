@@ -1,0 +1,6 @@
+.hero {
+	&__container {
+		display: grid;
+		grid-template-columns: 2fr;
+	}
+}
