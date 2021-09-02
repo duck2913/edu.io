@@ -1,0 +1,15 @@
+.courses {
+	background-image: url(../img/course.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+
+	&__name {
+		font-size: 5rem;
+	}
+
+	&__list {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+	}
+}

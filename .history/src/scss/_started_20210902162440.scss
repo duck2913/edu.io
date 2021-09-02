@@ -1,0 +1,14 @@
+.started {
+	margin-top: -10rem;
+
+	&__container {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+
+	&__text-box {
+		display: flex;
+		flex-direction: column;
+		gap: 8rem;
+	}
+}

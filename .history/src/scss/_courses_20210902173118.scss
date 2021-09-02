@@ -1,0 +1,62 @@
+.courses {
+	background-image: url(../img/course.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: relative;
+
+	&__name {
+		font-size: 5rem;
+	}
+
+	&__list {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		column-gap: 6rem;
+	}
+
+	&__item {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+		gap: 2rem;
+		border: 4px solid black;
+		padding: 2rem;
+		border-radius: 1rem;
+		box-shadow: $box-shadow;
+	}
+
+	&__flake {
+		position: absolute;
+
+		&--1 {
+			top: 10%;
+			left: 5%;
+		}
+		&--2 {
+			bottom: 10%;
+			left: 10%;
+		}
+		&--3 {
+			bottom: 5%;
+			right: 5%;
+		}
+	}
+
+	&::before,
+	&::after {
+		content: "";
+		position: absolute;
+		width: 100%;
+		height: 9rem;
+	}
+
+	&::before {
+		top: 0;
+	}
+
+	&::after {
+		bottom: 0;
+	}
+}

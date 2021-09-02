@@ -1,0 +1,26 @@
+.started {
+	margin-top: -10rem;
+
+	&__img {
+		max-height: 70rem;
+	}
+
+	&__container {
+		display: grid;
+		grid-template-columns: 3fr 2fr;
+	}
+
+	&__text-box {
+		display: flex;
+		flex-direction: column;
+		gap: 8rem;
+	}
+
+	&__flake {
+		position: absolute;
+		&--1 {
+		}
+		&--2 {
+		}
+	}
+}
