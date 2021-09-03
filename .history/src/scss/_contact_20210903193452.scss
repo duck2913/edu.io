@@ -1,0 +1,49 @@
+.contact {
+	&__icons {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		justify-items: center;
+		align-items: center;
+	}
+
+	&__info {
+		display: flex;
+		flex-direction: column;
+		gap: 3.5rem;
+		align-items: center;
+	}
+
+	&__icon {
+		font-size: 8rem;
+	}
+
+	&__text {
+		font-size: 3rem;
+	}
+
+	display: block;
+	@include maxW(1023px) {
+		&__icon {
+			font-size: 3rem;
+		}
+	}
+}
+
+.form {
+	width: 88rem;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	column-gap: 5rem;
+	row-gap: 4.5rem;
+
+	input {
+		padding: 2rem;
+		border: 3px solid $color-black;
+		border-radius: 1.2rem;
+	}
+	#suggestion {
+		grid-column: 2/3;
+		grid-row: 1/3;
+	}
+}

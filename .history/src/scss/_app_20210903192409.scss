@@ -1,0 +1,42 @@
+.app {
+	&__container {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		column-gap: 5rem;
+	}
+
+	&__content {
+		position: relative;
+	}
+
+	&__img {
+		max-height: 70rem;
+	}
+	&__text-box {
+		display: flex;
+		flex-direction: column;
+		gap: 5rem;
+	}
+
+	&__flake {
+		position: absolute;
+
+		img {
+			max-width: 30rem;
+		}
+		&--1 {
+			top: -15%;
+			left: 15%;
+		}
+
+		&--2 {
+			left: 0;
+			bottom: 5%;
+		}
+	}
+	display: grid;
+
+	@include maxW(1023px) {
+		grid-template-columns: 1fr;
+	}
+}
