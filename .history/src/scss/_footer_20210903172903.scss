@@ -1,0 +1,13 @@
+.footer {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	padding: 2rem 0;
+	&__list {
+	}
+
+	&__item {
+	}
+
+	.col {
+	}
+}

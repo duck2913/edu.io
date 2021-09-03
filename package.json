@@ -16,5 +16,7 @@
 		"parcel-plugin-nuke-dist": "^1.0.1",
 		"sass": "^1.38.1"
 	},
-	"dependencies": {}
+	"dependencies": {
+		"vscode-css-languageservice": "^5.1.4"
+	}
 }

@@ -1,0 +1,23 @@
+.contact {
+	&__icons {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		justify-items: center;
+		align-items: center;
+	}
+
+	&__info {
+		display: flex;
+		flex-direction: column;
+		gap: 3.5rem;
+		align-items: center;
+	}
+
+	&__icon {
+		font-size: 8rem;
+	}
+
+	&__text {
+		font-size: 3rem;
+	}
+}
