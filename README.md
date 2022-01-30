@@ -1,3 +1,3 @@
 # edu.io
 
-designed by Joy Shaheb
+Click https://edu-io.netlify.app/ to view
